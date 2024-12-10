@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.container{
+    padding: 40px;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 30px 3px #d8d8d8;
+    padding: 20px;
+}
+.logo{
+    width: 80px;
+    border-radius: 20px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+li a{
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+}
+li a:hover{
+    color: purple;
+}
+.hero .container{
+    margin: 50px 0;
+}
+.hero .background{
+    position: absolute;
+}
+.background{
+    height: 600px;
+    width: 100%;
+}
+/* .front-hero{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 800px;
+} */
+ .front-hero{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .left-hero{
+    padding-left: 50px;
+ }
+.hero-img{
+    width: 500px;
+}
+.hero-text{
+    font-size: 70px;
+    color: #d8d8d8;
+}
+.hero-text:hover{
+    color: purple;
+    cursor: default;
+}
+.left-hero a{
+    font-size: 50px;
+    color: #d8d8d8;
+}
+.left-hero a:hover{
+    color: purple;
+    cursor: pointer;
+}
+.um .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+.dois .container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+.img-section{
+    width: 500px;
+    border-radius: 40px;
+}
+.right p{
+    font-size: 40px;
+    color: purple;
+    font-weight: 600;
+    width: 250px;
+    text-align: center;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px -4px 30px 3px #d8d8d8;
+    padding: 10px;
+}
+footer p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #d8d8d8;
+}
+footer .logo{
+    width: 80px;
+}
